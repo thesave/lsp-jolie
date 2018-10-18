@@ -1,0 +1,20 @@
+{
+  "name": "dot-lsp-server",
+  "description": "Implementation of a language server for Dot",
+  "version": "0.0.1",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "request": "*",
+    "vscode-languageserver": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.52",
+    "typescript": "^2.1.5"
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch" : "tsc -watch -p ./"
+  }
+}
